@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T02:10:56.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="ScUvCAo5ZNTyfUWQnyJm" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T02:17:18.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="7lgIxvQkIHMumYkT8jHw" version="21.4.0" type="github">
   <diagram name="第 1 页" id="h-YlEtajoELXWKoNKWp4">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,8 +40,8 @@
         <mxCell id="oOEuEmjiVPEV5kPY5PhE-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" parent="1" vertex="1">
           <mxGeometry x="130" y="225" width="370" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oOEuEmjiVPEV5kPY5PhE-13" value="订单的时间信息包含在编号里" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="290" width="240" height="30" as="geometry" />
+        <mxCell id="oOEuEmjiVPEV5kPY5PhE-13" value="订单的时间信息包含在编号中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="290" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oOEuEmjiVPEV5kPY5PhE-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="400" width="520" height="250" as="geometry" />
@@ -91,7 +91,7 @@
         <mxCell id="oOEuEmjiVPEV5kPY5PhE-29" value="共计21个字符" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="540" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e_M5NRfI1AlhgO6A6abC-1" value="编号中的订单规则需要特定的代码解析，无法从订单编号中看出任何业务信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="e_M5NRfI1AlhgO6A6abC-1" value="编号中的订单规则需要特定的代码解析，无法从订单编号中看出任何业务信息，但是后台人员可以解析出来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="590" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e_M5NRfI1AlhgO6A6abC-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
