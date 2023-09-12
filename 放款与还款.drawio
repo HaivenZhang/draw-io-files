@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T06:33:33.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="w9YOY5A0Wi3st5HrrYf6" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T08:03:18.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="347qcTKJ1n6PvSJcPMZ7" version="21.7.4" type="github">
   <diagram name="第 1 页" id="HHc26cG-izc9ckiF9W-i">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,8 +30,8 @@
         <mxCell id="Nl-gBLgfY9R9cnnA4P5X-17" value="2.客户端上传放款凭证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="637.5" y="160" width="50" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-21" value="&lt;div&gt;1.此时放款金额和放款日期均为空，放款还未正式生效&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="790" y="225" width="120" height="60" as="geometry" />
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-21" value="&lt;div&gt;1.此时放款金额和放款日期均为空，放款还未正式生效&lt;/div&gt;&lt;div&gt;2.平台端也可以上传放款单证，如果客户没上传，平台直接上传并设置参数。客户端已经上传，后台可覆盖客户上传的&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="790" y="240" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Nl-gBLgfY9R9cnnA4P5X-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-24" target="Nl-gBLgfY9R9cnnA4P5X-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -70,11 +70,11 @@
         <mxCell id="Nl-gBLgfY9R9cnnA4P5X-33" value="6.后台可以查看用户上传的还款单证并且编辑还款金额和还款日期，可以多次编辑，但是还款总额不能超过应还款金额" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="245" y="600" width="50" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-38" value="&lt;div&gt;1.一旦编辑完金额和日期，并且保存成功，还款已经生效，放款信息则不能修改&lt;/div&gt;&lt;div&gt;2.还款金额可以多次编辑，但是不能超过应还金额&lt;/div&gt;&lt;div&gt;3.第一期没有设置金额前不能操作第二期&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="40" y="801" width="120" height="160" as="geometry" />
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-38" value="&lt;div&gt;1.一旦编辑完金额和日期，并且保存成功，还款已经生效，放款信息则不能修改&lt;/div&gt;&lt;div&gt;2.还款金额可以多次编辑，亦会核算逾期利息&lt;/div&gt;&lt;div&gt;3.第一期没有设置金额前不能操作第二期&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="801" width="120" height="239" as="geometry" />
         </mxCell>
         <mxCell id="Nl-gBLgfY9R9cnnA4P5X-39" value="&lt;div&gt;1.此时还款款金额和还款日期均为空，还款还没有生效&lt;/div&gt;&lt;div&gt;2.此时平台端仍然可以修改放款信息&lt;/div&gt;&lt;div&gt;3.客户可以多次上传，由平台端统计并设置金额&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="775" y="520" width="150" height="90" as="geometry" />
+          <mxGeometry x="775" y="490" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Nl-gBLgfY9R9cnnA4P5X-52" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="207.5" y="442.5" width="125" height="125" as="geometry" />
