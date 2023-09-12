@@ -1,39 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T02:26:33.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="TDIz2mFoFDkmewBMl0T_" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T06:33:33.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="w9YOY5A0Wi3st5HrrYf6" version="21.7.4" type="github">
   <diagram name="第 1 页" id="HHc26cG-izc9ckiF9W-i">
-    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-1" target="Nl-gBLgfY9R9cnnA4P5X-17">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-1" target="Nl-gBLgfY9R9cnnA4P5X-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-1" value="1.融资审核通过" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-1" value="1.融资审核通过" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="210" y="150" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-10" value="从产品信息表获取分期数：例 10期" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-10" value="从产品信息表获取分期数：例 10期" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-14" value="后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99FF99;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-14" value="后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99FF99;" parent="1" vertex="1">
           <mxGeometry x="215" y="40" width="110" height="1010" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-15" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99FF99;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-15" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99FF99;" parent="1" vertex="1">
           <mxGeometry x="610" y="40" width="100" height="830" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-17">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.033;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-17" target="Nl-gBLgfY9R9cnnA4P5X-24">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.033;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-17" target="Nl-gBLgfY9R9cnnA4P5X-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-17" value="2.客户端上传放款凭证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-17" value="2.客户端上传放款凭证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="637.5" y="160" width="50" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-21" value="&lt;div&gt;1.此时放款金额和放款日期均为空，放款还未正式生效&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-21" value="&lt;div&gt;1.此时放款金额和放款日期均为空，放款还未正式生效&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="790" y="225" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-24" target="Nl-gBLgfY9R9cnnA4P5X-3">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-24" target="Nl-gBLgfY9R9cnnA4P5X-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="270" y="450" />
@@ -41,75 +41,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-24">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="324.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-24" value="3.后台可进行查看并编辑放款金额和放款日期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-24" value="3.后台可进行查看并编辑放款金额和放款日期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="245" y="240" width="50" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-26" value="&lt;div&gt;1.根据放款金额设置还款表的每期还款金额，例如:放款=10000&lt;/div&gt;&lt;div&gt;，则每期还款金额=10000/10&lt;/div&gt;&lt;div&gt;2.根据编辑的放款日期设置还款列表的还款日期，例如:放款日期=2023-09-11，&lt;/div&gt;&lt;div&gt;则第一期还款日期=2023-10-11&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-26" value="&lt;div&gt;1.根据放款金额设置还款表的每期还款金额，例如:放款=10000&lt;/div&gt;&lt;div&gt;，则每期还款金额=10000/10&lt;/div&gt;&lt;div&gt;2.根据编辑的放款日期设置还款列表的还款日期，例如:放款日期=2023-09-11，&lt;/div&gt;&lt;div&gt;则第一期还款日期=2023-10-11&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="600" width="120" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-31" target="Nl-gBLgfY9R9cnnA4P5X-39">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-31" target="Nl-gBLgfY9R9cnnA4P5X-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.9;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.9;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="612.5" as="sourcePoint" />
             <mxPoint x="295" y="612.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-31" value="5.客户上传还款单证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-31" value="5.客户上传还款单证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="635" y="470" width="55" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.986;entryY=0.149;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-33" target="Nl-gBLgfY9R9cnnA4P5X-38">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.986;entryY=0.149;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-33" target="Nl-gBLgfY9R9cnnA4P5X-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-33" value="6.后台可以查看用户上传的还款单证并且编辑还款金额和还款日期，可以多次编辑，但是还款总额不能超过应还款金额" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-33" value="6.后台可以查看用户上传的还款单证并且编辑还款金额和还款日期，可以多次编辑，但是还款总额不能超过应还款金额" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="245" y="600" width="50" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-38" value="&lt;div&gt;1.一旦编辑完金额和日期，并且保存成功，还款已经生效，放款信息则不能修改&lt;/div&gt;&lt;div&gt;2.还款金额可以多次编辑，但是不能超过应还金额&lt;/div&gt;&lt;div&gt;3.第一期没有设置金额前不能操作第二期&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-38" value="&lt;div&gt;1.一旦编辑完金额和日期，并且保存成功，还款已经生效，放款信息则不能修改&lt;/div&gt;&lt;div&gt;2.还款金额可以多次编辑，但是不能超过应还金额&lt;/div&gt;&lt;div&gt;3.第一期没有设置金额前不能操作第二期&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="801" width="120" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-39" value="&lt;div&gt;1.此时还款款金额和还款日期均为空，还款还没有生效&lt;/div&gt;&lt;div&gt;2.此时平台端仍然可以修改放款信息&lt;/div&gt;&lt;div&gt;3.客户可以多次上传，由平台端统计并设置金额&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-39" value="&lt;div&gt;1.此时还款款金额和还款日期均为空，还款还没有生效&lt;/div&gt;&lt;div&gt;2.此时平台端仍然可以修改放款信息&lt;/div&gt;&lt;div&gt;3.客户可以多次上传，由平台端统计并设置金额&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="775" y="520" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-43" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;只有客户端能上传凭证，原型中平台的&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;上传凭证按钮及功能取消&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="735" y="362.5" width="230" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=19.166666666666668;endSize=5.141666666666667;entryX=0.75;entryY=0.944;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="849.58" y="514.48" as="sourcePoint" />
-            <mxPoint x="849.58" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-45" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=19.166666666666668;endSize=5.141666666666667;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="849.58" y="300" as="sourcePoint" />
-            <mxPoint x="849.58" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-52" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-52" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="207.5" y="442.5" width="125" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-11" value="&lt;div&gt;第一期&lt;/div&gt;&lt;div&gt;第二期&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;第十期&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6CC;" vertex="1" parent="Nl-gBLgfY9R9cnnA4P5X-52">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-11" value="&lt;div&gt;第一期&lt;/div&gt;&lt;div&gt;第二期&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;第十期&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFE6CC;" parent="Nl-gBLgfY9R9cnnA4P5X-52" vertex="1">
           <mxGeometry y="5" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-3" value="4.生成分期还款单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Nl-gBLgfY9R9cnnA4P5X-52">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-3" value="4.生成分期还款单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Nl-gBLgfY9R9cnnA4P5X-52" vertex="1">
           <mxGeometry x="5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-11" target="Nl-gBLgfY9R9cnnA4P5X-10">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nl-gBLgfY9R9cnnA4P5X-11" target="Nl-gBLgfY9R9cnnA4P5X-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="99.58" y="540" as="sourcePoint" />
             <mxPoint x="99.58" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-67" value="&lt;div&gt;1.平台端在未进行还款前可以多次编辑放款信息&lt;/div&gt;&lt;div&gt;2.第一次设置放款信息后生成分期还款单，后面修改放款金额和日期后会自动更新还款单的金额和日期信息，如下第4步&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Nl-gBLgfY9R9cnnA4P5X-67" value="&lt;div&gt;1.平台端在未进行还款前可以多次编辑放款信息&lt;/div&gt;&lt;div&gt;2.第一次设置放款信息后生成分期还款单，后面修改放款金额和日期后会自动更新还款单的金额和日期信息，如下第4步&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="295" width="120" height="135" as="geometry" />
         </mxCell>
       </root>
