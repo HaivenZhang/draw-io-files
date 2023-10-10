@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T07:38:24.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="y5fXlnVw8QTiLEBb7htw" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T07:51:10.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="LF_gRDyQzAGFPdt7DAG3" version="21.7.4" type="github">
   <diagram name="第 1 页" id="Aw3Pf0h6sJnKODZOu8LF">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,7 +189,7 @@
         <mxCell id="Zr8373-K24QdLeZp-8y8-74" value="判断是否为第一期" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="260" y="1140" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-77" value="返还剩余额度" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Zr8373-K24QdLeZp-8y8-77" value="返还剩余额度" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="1">
           <mxGeometry x="470" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-78" value="剩余授信 = 剩余授信 + 本期的应还本金" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;align=left;" vertex="1" parent="1">
@@ -201,7 +201,7 @@
             <mxPoint x="670" y="1168.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-86" value="将前面所有的期的剩余本金额度都返还" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Zr8373-K24QdLeZp-8y8-86" value="将前面所有的转结订单的剩余本金额度都返还" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="1">
           <mxGeometry x="270" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-99">
@@ -241,10 +241,10 @@
         <mxCell id="Zr8373-K24QdLeZp-8y8-105" value="返还剩余额度" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="260" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-108" value="返还额度为应还本金" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Zr8373-K24QdLeZp-8y8-108" value="返还额度为应还本金" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="1">
           <mxGeometry x="660" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-114" value="返还额度为还款金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Zr8373-K24QdLeZp-8y8-114" value="返还额度为还款金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="1">
           <mxGeometry x="433.75" y="1830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-159">
@@ -265,7 +265,7 @@
         <mxCell id="Zr8373-K24QdLeZp-8y8-159" value="判断上一期是否为转结" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="260" y="1250" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-166" value="返还本期剩余额度" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Zr8373-K24QdLeZp-8y8-166" value="返还本期剩余额度" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="1">
           <mxGeometry x="80" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-167" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
@@ -366,6 +366,18 @@
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-178" value="返还额度为: 100" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1280" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-179" value="&lt;div align=&quot;left&quot;&gt;1.示例1：前四期都为转结，那么1-5期的授信额度都返还&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.示例2：前三期为转结，第四期为结清，那么只返还第五期&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.示例3：前两期为转结，第三期为结清，第四期为转结，那么只 &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; 返还第四期和第五期&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.示例4：如果前四期都为结清，那么只转结第五期&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;tips：还款时已经限制了，只有前一期为转结或者结清时，才能使状态变为已结清&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1475" width="350" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-180" value="假设有6期，当前第五期" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-181" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;width=10;endSize=3.7;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="1410" as="sourcePoint" />
+            <mxPoint x="210" y="1410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
