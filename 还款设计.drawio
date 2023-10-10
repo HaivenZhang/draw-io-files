@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T07:51:10.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="LF_gRDyQzAGFPdt7DAG3" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T09:32:36.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="8aF5kn2cTZH1LhYQiiXL" version="21.7.4" type="github">
   <diagram name="第 1 页" id="Aw3Pf0h6sJnKODZOu8LF">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -378,6 +378,153 @@
             <mxPoint x="260" y="1410" as="sourcePoint" />
             <mxPoint x="210" y="1410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-182" value="" style="shape=link;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;width=40;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="30" y="2000" as="sourcePoint" />
+            <mxPoint x="1354" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-183" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;还款单状态流转&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2031" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-184" value="待还款" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="723" y="2270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-185" value="已转结" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="2325" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-186" value="逾期" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="2410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-187" value="已还款" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="891.5" y="2635" width="88.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-188" value="部分还款" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2470" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-194" target="Zr8373-K24QdLeZp-8y8-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-201">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583" y="2218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-210" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200.5" y="2110" width="100" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-211" value="管理端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510.5" y="2110" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-212" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2110" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-194" value="客户上传放款凭证" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="193" y="2188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-204" value="生成分期还款单" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500.5" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.404;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-201" target="Zr8373-K24QdLeZp-8y8-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-201" value="管理端设置放款金额及放款日期" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="497" y="2188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-214" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630.5" y="2319.5" as="sourcePoint" />
+            <mxPoint x="710.5" y="2319.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-215" value="还款单初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620.5" y="2270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-216">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="498" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-216" value="客户上传还款凭证" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="193" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-217" target="Zr8373-K24QdLeZp-8y8-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-217" value="管理端设置还款金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500.5" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-222" value="设置还款状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500.5" y="2540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-227" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620.5" y="2569.5" as="sourcePoint" />
+            <mxPoint x="680" y="2570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-229" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2480" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-230" value="还款金额小于应还金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="707" y="2470" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-231" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="787" y="2484.5" as="sourcePoint" />
+            <mxPoint x="827" y="2484.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-232" value="还款金额等于应还金额，但上一笔还款未结清也未转结" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="707" y="2530" width="123" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-233" value="部分还款" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="891.5" y="2545" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-234" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="838.5" y="2559.5" as="sourcePoint" />
+            <mxPoint x="878.5" y="2559.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-235" value="还款金额等于应还金额，但上一笔还款结清或转结" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="707" y="2620" width="123" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-236" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="2650" as="sourcePoint" />
+            <mxPoint x="880.5" y="2650.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-238" target="Zr8373-K24QdLeZp-8y8-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-238" value="根据当前日期(n-now)，查询所有还款逾期的还款单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-239">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-242" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Zr8373-K24QdLeZp-8y8-241">
+          <mxGeometry x="0.0458" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-239" target="Zr8373-K24QdLeZp-8y8-186">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="2460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-244" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Zr8373-K24QdLeZp-8y8-243">
+          <mxGeometry x="-0.0054" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-239" value="是否超过下一期的应还款日期" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="2310" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
