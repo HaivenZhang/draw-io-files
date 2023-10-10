@@ -1,62 +1,187 @@
-<mxfile host="app.diagrams.net" modified="2023-09-28T01:51:21.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="IJxSpn1DBbEDcVFkAHXV" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T03:04:24.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="2uU328nGc_l6RoCtWe26" version="21.7.4" type="github">
   <diagram name="第 1 页" id="Aw3Pf0h6sJnKODZOu8LF">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IFvYXQbIsYziRsAE9J6--2" value="每天凌晨0-1点进行逾期还款单核算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="IFvYXQbIsYziRsAE9J6--2" value="每天凌晨0-1点进行逾期还款单核算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="100" y="183" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--3">
+        <mxCell id="IFvYXQbIsYziRsAE9J6--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IFvYXQbIsYziRsAE9J6--3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="210" as="targetPoint" />
+            <mxPoint x="270" y="353" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--3" value="根据当前日期(n-now)，查询所有还款逾期的还款单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="IFvYXQbIsYziRsAE9J6--3" value="根据当前日期(n-now)，查询所有还款逾期的还款单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="323" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--2">
+        <mxCell id="IFvYXQbIsYziRsAE9J6--4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" source="IFvYXQbIsYziRsAE9J6--2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="150" as="sourcePoint" />
-            <mxPoint x="160" y="170.71067811865476" as="targetPoint" />
+            <mxPoint x="160" y="293" as="sourcePoint" />
+            <mxPoint x="160" y="313.71067811865476" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--7">
+        <mxCell id="IFvYXQbIsYziRsAE9J6--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IFvYXQbIsYziRsAE9J6--7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="210" as="targetPoint" />
+            <mxPoint x="400" y="353" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--7" value="&lt;div&gt;查询产品的宽限天数&lt;/div&gt;&lt;div&gt;graceDay&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="270" y="170" width="80" height="80" as="geometry" />
+        <mxCell id="IFvYXQbIsYziRsAE9J6--7" value="&lt;div&gt;查询产品的宽限天数&lt;/div&gt;&lt;div&gt;graceDay&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="270" y="313" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--9">
+        <mxCell id="IFvYXQbIsYziRsAE9J6--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IFvYXQbIsYziRsAE9J6--9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="475" y="350" as="targetPoint" />
+            <mxPoint x="630" y="353" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IFvYXQbIsYziRsAE9J6--10">
-          <mxGeometry x="-0.1259" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IFvYXQbIsYziRsAE9J6--11">
+        <mxCell id="IFvYXQbIsYziRsAE9J6--12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IFvYXQbIsYziRsAE9J6--11" vertex="1" connectable="0">
           <mxGeometry x="-0.1802" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--9" value="当前日期 + 宽限天数 &amp;gt; 应还款日期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="145" width="150" height="130" as="geometry" />
+        <mxCell id="Zr8373-K24QdLeZp-8y8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="483" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--13" value="不做处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="180" width="70" height="60" as="geometry" />
+        <mxCell id="Zr8373-K24QdLeZp-8y8-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Zr8373-K24QdLeZp-8y8-16">
+          <mxGeometry x="-0.084" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IFvYXQbIsYziRsAE9J6--17" value="当前日期 - 应还日期 = 1个月" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="362.5" y="350" width="225" height="80" as="geometry" />
+        <mxCell id="IFvYXQbIsYziRsAE9J6--9" value="当前日期 + 宽限天数 &amp;gt; 应还款日期" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="400" y="288" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IFvYXQbIsYziRsAE9J6--13" value="不做处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="323" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-2" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zr8373-K24QdLeZp-8y8-1">
+          <mxGeometry x="-0.0548" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IFvYXQbIsYziRsAE9J6--17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zr8373-K24QdLeZp-8y8-4">
+          <mxGeometry x="0.0729" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFvYXQbIsYziRsAE9J6--17" value="是否超过下一期的应还款日期" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="361.5" y="603" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-3" value="&lt;div&gt;1.计算逾期金额&lt;/div&gt;&lt;div&gt;2.修改订单状态为已转结&lt;/div&gt;&lt;div&gt;3.将本期的未还金额转结到下一期&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="660" y="613" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-6" value="&lt;div align=&quot;left&quot;&gt;1.还款单状态变为逾期&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.计算逾期金额&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="414" y="753" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-12" value="&lt;div&gt;每月还款本息&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; = &lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;[贷款金额*年利率/12*(1+年利率/12）^贷款期数]/[（1+年利率/12）^贷款期数-1]&lt;span style=&quot;&quot; data-eleid=&quot;4&quot; class=&quot;text-only&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot; data-eleid=&quot;7&quot; class=&quot;text-only&quot;&gt;每月利息&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt; = &lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;剩余本金*年利率/12&lt;/span&gt;&lt;span style=&quot;&quot; data-eleid=&quot;6&quot; class=&quot;text-only&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; data-eleid=&quot;9&quot; class=&quot;text-only&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot; data-eleid=&quot;9&quot; class=&quot;text-only&quot;&gt;每月应还本金&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt; = &lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;每月还款本息-每月利息&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="163" width="610" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="782.5" as="sourcePoint" />
+            <mxPoint x="340" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-15" value="&lt;div&gt;逾期金额 = 逾期天数 * 应还金额 * 逾期利率&lt;/div&gt;&lt;div&gt;应还金额 = 应还本金加利息 + 逾期金额 + 转结金额 - 已还金额 &lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="723" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="603" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Zr8373-K24QdLeZp-8y8-19">
+          <mxGeometry x="-0.1054" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Zr8373-K24QdLeZp-8y8-21">
+          <mxGeometry x="0.1905" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-18" value="是否为最后一期" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="386.25" y="483" width="177.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-23" value="直接核算逾期金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="483" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="642.5" as="sourcePoint" />
+            <mxPoint x="930" y="643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-25" value="&lt;div&gt;未还金额 = 应还金额 - 已还金额 &lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="935" y="608" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-26" value="" style="shape=link;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;width=20;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="30" y="890" as="sourcePoint" />
+            <mxPoint x="1354" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-27" value="" style="shape=link;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;width=36;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="70" y="60" as="sourcePoint" />
+            <mxPoint x="1452" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-28" value="&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;逾期金额核算&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="53" y="85" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-31" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;返还授信额度&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="910" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-32" value="每日凌晨0-1点进行授信额度返还" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-36" value="返还已还清的授信额度" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="290" y="990" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1022" as="sourcePoint" />
+            <mxPoint x="490" y="1023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-39" value="查询所有的已还清的还款单" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="500" y="990" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-40" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1010" width="20" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Zr8373-K24QdLeZp-8y8-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-42" value="根据还款单查询授信信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="660" y="990" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-44" value="将授信信息的剩余授信减去该笔订单的应还本金加利息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="820" y="990" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
