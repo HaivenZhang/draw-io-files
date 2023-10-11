@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T10:04:48.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="VLrCp79cOnIjtPvHR6jx" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T01:42:03.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="GccuL9xbE8MqChMHYMTK" version="21.7.4" type="github">
   <diagram name="第 1 页" id="Aw3Pf0h6sJnKODZOu8LF">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -531,6 +531,15 @@
             <mxPoint x="40" y="1680" as="sourcePoint" />
             <mxPoint x="1240" y="1680" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-249" value="" style="shape=link;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;width=40;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="20" y="2760" as="sourcePoint" />
+            <mxPoint x="1344" y="2760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr8373-K24QdLeZp-8y8-250" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;还款功能设计&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2800" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
