@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T02:25:17.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="h3vPdYKgs3QHjUpdH1Mu" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T06:48:22.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="9lBrsUHNkTFIt9crDRmG" version="22.0.4" type="github">
   <diagram name="第 1 页" id="Aw3Pf0h6sJnKODZOu8LF">
     <mxGraphModel dx="1366" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-139" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2570" width="520" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="IFvYXQbIsYziRsAE9J6--2" value="每天凌晨0-1点进行逾期还款单核算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="100" y="183" width="120" height="60" as="geometry" />
         </mxCell>
@@ -78,7 +81,7 @@
         <mxCell id="IFvYXQbIsYziRsAE9J6--17" value="是否超过下一期的应还款日期" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="361.5" y="603" width="225" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-3" value="&lt;div&gt;1.计算逾期金额&lt;/div&gt;&lt;div&gt;2.修改订单状态为已转结&lt;/div&gt;&lt;div&gt;3.将本期的未还金额转结到下一期&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="Zr8373-K24QdLeZp-8y8-3" value="&lt;div&gt;1.计算逾期金额&lt;/div&gt;&lt;div&gt;2.修改订单状态为已转结&lt;/div&gt;&lt;div&gt;3.将本期的未还金额转结到下一期&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="660" y="613" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-6" value="&lt;div align=&quot;left&quot;&gt;1.还款单状态变为逾期&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.计算逾期金额&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -608,13 +611,23 @@
         <mxCell id="2_UDLm3RMH8MQwXrRxa8-76" value="&lt;div&gt;设置状态为已结清&lt;/div&gt;&lt;div&gt;设置还款金额&lt;/div&gt;&lt;div&gt;设置还款日期&lt;br&gt;&lt;/div&gt;&lt;div&gt;修改还款单&lt;br&gt; &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1430.5" y="2920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2_UDLm3RMH8MQwXrRxa8-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_UDLm3RMH8MQwXrRxa8-78">
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_UDLm3RMH8MQwXrRxa8-131">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1490.5" y="3190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_UDLm3RMH8MQwXrRxa8-78" target="2_UDLm3RMH8MQwXrRxa8-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="3040" />
+              <mxPoint x="1600" y="3320" />
+              <mxPoint x="780" y="3320" />
+              <mxPoint x="780" y="2795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2_UDLm3RMH8MQwXrRxa8-78" value="&lt;div&gt;返还授信额度&lt;/div&gt;&lt;div&gt;返还额度值: 应还本金&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1430.5" y="3060" width="120" height="60" as="geometry" />
+          <mxGeometry x="1430.5" y="3010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2_UDLm3RMH8MQwXrRxa8-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_UDLm3RMH8MQwXrRxa8-82" target="2_UDLm3RMH8MQwXrRxa8-72">
           <mxGeometry relative="1" as="geometry" />
@@ -708,6 +721,36 @@
         <mxCell id="2_UDLm3RMH8MQwXrRxa8-124" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2_UDLm3RMH8MQwXrRxa8-123">
           <mxGeometry x="-0.2434" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2_UDLm3RMH8MQwXrRxa8-78" target="2_UDLm3RMH8MQwXrRxa8-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490.5" y="3190" as="targetPoint" />
+            <mxPoint x="1490" y="3070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-131" value="返还前面所有已转结的授信额度" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1430.5" y="3100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-133" value="返还前面所有连续已转结的剩余的授信额度" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="241.5" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-134" value="&lt;div&gt;场景一：&lt;/div&gt;&lt;div&gt;1.第一期，第三期，第四期已转结&lt;/div&gt;&lt;div&gt;2.第二期已结清&lt;/div&gt;&lt;div&gt;此时第5期结清，则将三，四，五期剩余的应还本金返还&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;场景二：&lt;/div&gt;&lt;div&gt;1.第一，二，三，四期为已转结&lt;/div&gt;&lt;div&gt;此时第5期结清，则将一，二，三，四，五期剩余的应还本金返还&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;场景三：&lt;/div&gt;&lt;div&gt;1.第一，二，三期为已转结&lt;/div&gt;&lt;div&gt;2.第四期为已结清&lt;/div&gt;&lt;div&gt;&lt;div&gt;此时第5期结清，则将五期剩余的应还本金返还&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="241.5" y="2750" width="418.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-135" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="2640" as="sourcePoint" />
+            <mxPoint x="420" y="2640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-136" value="&lt;div&gt;分期为6期&lt;/div&gt;&lt;div&gt;当前期为第5期&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2_UDLm3RMH8MQwXrRxa8-137" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="2690" as="sourcePoint" />
+            <mxPoint x="490" y="2730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
