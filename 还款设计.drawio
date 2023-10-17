@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T03:05:58.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="7aytwj-b62GtbNYU1KFw" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T03:08:22.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="CY_dNi7lZWk1AzTUkHIX" version="22.0.4" type="github">
   <diagram name="第 1 页" id="Aw3Pf0h6sJnKODZOu8LF">
     <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
           <mxGeometry x="1250" y="1300" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-187" value="已还款" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" parent="1" vertex="1">
-          <mxGeometry x="891.5" y="1525" width="88.5" height="30" as="geometry" />
+          <mxGeometry x="840" y="1520" width="88.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-188" value="部分还款" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" parent="1" vertex="1">
           <mxGeometry x="840" y="1360" width="90" height="30" as="geometry" />
@@ -238,7 +238,7 @@
           <mxGeometry x="680" y="1370" width="20" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-230" value="还款金额小于应还金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="707" y="1360" width="73" height="30" as="geometry" />
+          <mxGeometry x="707" y="1360" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-231" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -246,25 +246,13 @@
             <mxPoint x="827" y="1374.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-232" value="还款金额等于应还金额，但上一笔还款未结清也未转结" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="707" y="1420" width="123" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-233" value="部分还款" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;" parent="1" vertex="1">
-          <mxGeometry x="891.5" y="1435" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-234" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="838.5" y="1449.5" as="sourcePoint" />
-            <mxPoint x="878.5" y="1449.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zr8373-K24QdLeZp-8y8-235" value="还款金额等于应还金额，但上一笔还款结清或转结" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="707" y="1510" width="123" height="60" as="geometry" />
+        <mxCell id="Zr8373-K24QdLeZp-8y8-235" value="还款金额等于应还金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="707" y="1510" width="73" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-236" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="1540" as="sourcePoint" />
-            <mxPoint x="880.5" y="1540.5" as="targetPoint" />
+            <mxPoint x="787" y="1539.41" as="sourcePoint" />
+            <mxPoint x="827.5" y="1539.91" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zr8373-K24QdLeZp-8y8-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="Zr8373-K24QdLeZp-8y8-238" target="Zr8373-K24QdLeZp-8y8-239" edge="1">
