@@ -108,9 +108,6 @@
         <mxCell id="q97o_3N-xL1JF2Es6VxV-43" value="转换成标准比赛" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-56" value="查找相同的比赛" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="780" width="180" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="q97o_3N-xL1JF2Es6VxV-57" value="&lt;div&gt;必要条件&lt;/div&gt;&lt;div&gt;1.主客队匹配&lt;/div&gt;&lt;div&gt;2.没有被屏蔽&lt;/div&gt;&lt;div&gt;3.12个小时内的比赛&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;=》： 先找其中开赛时间相同的，没有则取第一个&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;fillColor=#FFFF99;align=left;" parent="1" vertex="1">
           <mxGeometry x="110" y="730" width="160" height="160" as="geometry" />
         </mxCell>
@@ -124,20 +121,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=160;entryDy=87.5;entryPerimeter=0;" parent="1" source="q97o_3N-xL1JF2Es6VxV-56" target="q97o_3N-xL1JF2Es6VxV-57" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="270" y="820" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="q97o_3N-xL1JF2Es6VxV-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=20;endSize=8.15;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="557" as="sourcePoint" />
             <mxPoint x="780" y="557" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-61" value="三方比赛" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="q97o_3N-xL1JF2Es6VxV-61" value="三方比赛" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
           <mxGeometry x="800" y="517.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="q97o_3N-xL1JF2Es6VxV-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=20;endSize=8.15;" parent="1" edge="1">
@@ -149,18 +139,6 @@
         <mxCell id="q97o_3N-xL1JF2Es6VxV-63" value="新的标准比赛" style="ellipse;whiteSpace=wrap;html=1;fillColor=#33FF99;" parent="1" vertex="1">
           <mxGeometry x="800" y="630" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-68" value="设置新比赛" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1101" y="930" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q97o_3N-xL1JF2Es6VxV-61" target="q97o_3N-xL1JF2Es6VxV-91" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="615" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="970" y="558" />
-              <mxPoint x="970" y="650" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="q97o_3N-xL1JF2Es6VxV-76" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="q97o_3N-xL1JF2Es6VxV-61" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="600" as="sourcePoint" />
@@ -170,47 +148,230 @@
         <mxCell id="q97o_3N-xL1JF2Es6VxV-78" value="&lt;div&gt;三方比赛的标准比赛ID&lt;/div&gt;&lt;div&gt;要么为空&lt;/div&gt;&lt;div&gt;要么已经绑定标准比赛&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#FFFF99;" parent="1" vertex="1">
           <mxGeometry x="890" y="348" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q97o_3N-xL1JF2Es6VxV-56" target="q97o_3N-xL1JF2Es6VxV-91" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="870" y="820" as="sourcePoint" />
-            <mxPoint x="990" y="691.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="970" y="820" />
-              <mxPoint x="970" y="650" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-94" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="q97o_3N-xL1JF2Es6VxV-82" vertex="1" connectable="0">
-          <mxGeometry x="-0.3464" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="q97o_3N-xL1JF2Es6VxV-86" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="880" as="sourcePoint" />
             <mxPoint x="549.5" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-87" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=35;endSize=6.63;width=34;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="549.5" y="870" as="sourcePoint" />
-            <mxPoint x="550" y="940" as="targetPoint" />
-            <Array as="points" />
+        <mxCell id="Y9__IhxMjex77ySmMifH-3" value="为新的标准比赛生成ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-17" target="Y9__IhxMjex77ySmMifH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-17" value="查找匹配的比赛" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-88" value="未找到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="q97o_3N-xL1JF2Es6VxV-87" vertex="1" connectable="0">
-          <mxGeometry x="-0.3422" y="3" relative="1" as="geometry">
+        <mxCell id="Y9__IhxMjex77ySmMifH-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=20;endSize=8.15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="810" as="sourcePoint" />
+            <mxPoint x="770" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-22" value="匹配的比赛" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="800" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-26">
+          <mxGeometry x="-0.2244" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-89" value="&lt;div&gt;三方比赛未匹配&lt;/div&gt;&lt;div&gt;且也没有标准联赛&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="950" width="120" height="60" as="geometry" />
+        <mxCell id="Y9__IhxMjex77ySmMifH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-24" target="Y9__IhxMjex77ySmMifH-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-90" value="&lt;div&gt;三方比赛ID为空&lt;/div&gt;&lt;div&gt;未进行匹配&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;相等&lt;/div&gt;&lt;div&gt;设置新的标准比赛ID&lt;/div&gt;&lt;div&gt;为已经匹配标准比赛的ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;不相等&lt;/div&gt;&lt;div&gt;三方比赛没有匹配过&lt;/div&gt;&lt;div&gt;这新的标准比赛ID为空&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#FFFF99;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="310" width="150" height="170" as="geometry" />
+        <mxCell id="Y9__IhxMjex77ySmMifH-24" value="新增的三方比赛未进行过匹配" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="950" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="q97o_3N-xL1JF2Es6VxV-91" value="&lt;div&gt;三方比赛ID为空&lt;/div&gt;&lt;div&gt;未进行匹配&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="610" width="140" height="80" as="geometry" />
+        <mxCell id="Y9__IhxMjex77ySmMifH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-28" target="Y9__IhxMjex77ySmMifH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-35">
+          <mxGeometry x="-0.0889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-28" target="Y9__IhxMjex77ySmMifH-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-37">
+          <mxGeometry x="-0.32" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-28" value="找到匹配的比赛" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="950" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-34" value="为新的标准比赛生成ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-42" target="Y9__IhxMjex77ySmMifH-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-46" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-45">
+          <mxGeometry x="0.1" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-48" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-47">
+          <mxGeometry x="-0.0496" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-42" value="找到匹配的比赛" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1080" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-43" value="&lt;div&gt;与之前的匹配的ID是否相同&lt;/div&gt;&lt;div&gt;相同：新的标准比赛ID就是之前匹配好的ID&lt;/div&gt;&lt;div&gt;不同：新的标准比赛ID就是匹配比赛ID&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1065" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-49" value="新的标准比赛ID就为之前匹配好的ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=104;endSize=11.33;width=46;fillColor=#33FF33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1280" as="sourcePoint" />
+            <mxPoint x="540" y="1370" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-89" value="保存新的标准比赛" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-50">
+          <mxGeometry x="-0.1111" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-51" target="Y9__IhxMjex77ySmMifH-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-51" value="新的标准比赛生成完毕" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-53" target="Y9__IhxMjex77ySmMifH-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-57" value="是:已存在的标准比赛" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-56">
+          <mxGeometry x="-0.2923" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-53" target="Y9__IhxMjex77ySmMifH-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-87" value="否:全新的标准比赛" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-86">
+          <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-53" value="&lt;div&gt;新的标准比赛&lt;/div&gt;&lt;div&gt;是否已经存在&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1500" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-55" target="Y9__IhxMjex77ySmMifH-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-55" target="Y9__IhxMjex77ySmMifH-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-71" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-70">
+          <mxGeometry x="0.2286" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-55" value="是否需要进行修改" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-60" value="返回" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1510" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-69" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-68">
+          <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-66" target="Y9__IhxMjex77ySmMifH-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-76" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-75">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-66" target="Y9__IhxMjex77ySmMifH-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-81" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-80">
+          <mxGeometry x="-0.0444" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-66" value="是否独源" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-72" value="直接修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-73" value="检查字段是否与新的标准比赛是否相同" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1300" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-74" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-55" target="Y9__IhxMjex77ySmMifH-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="1550" as="sourcePoint" />
+            <mxPoint x="660" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-78" value="&lt;div&gt;填充标准比赛信息&lt;/div&gt;&lt;div&gt;推送标准比赛变更消息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-79" target="Y9__IhxMjex77ySmMifH-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-79" value="&lt;div&gt;只修改锁信息&lt;/div&gt;&lt;div&gt;和match_date&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9__IhxMjex77ySmMifH-85" target="Y9__IhxMjex77ySmMifH-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-85" value="保存全新的标准比赛" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-90" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=104;endSize=11.33;width=46;fillColor=#33FF33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.5" y="2000" as="sourcePoint" />
+            <mxPoint x="539.5" y="2090" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9__IhxMjex77ySmMifH-91" value="保存/修改三方比赛" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y9__IhxMjex77ySmMifH-90">
+          <mxGeometry x="-0.1111" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
