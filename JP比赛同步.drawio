@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
   <diagram name="第 1 页" id="0xR1DpmY3a8rvw-FRcuS">
-    <mxGraphModel>
+    <mxGraphModel dx="2253" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ddabaiSp2fjzImap6lhC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ddabaiSp2fjzImap6lhC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-4" value="查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ddabaiSp2fjzImap6lhC-2">
+          <mxGeometry x="-0.1244" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-1" value="JP数据库" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ddabaiSp2fjzImap6lhC-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-3" value="源比赛列表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="195" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-7" value="&lt;font face=&quot;Courier New&quot;&gt;SELECT * from refactor_prematch WHERE scheduled_date &amp;gt;= &#39;5天前&#39; and sport_id&amp;nbsp; = 1 order by update_time desc;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="40" width="800" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-13" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;SycMatchServiceNew&lt;/b&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=13;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="192.5" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="234.5" as="sourcePoint" />
+            <mxPoint x="40" y="234.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddabaiSp2fjzImap6lhC-16" value="找出开赛时间12小时内且主客队有一个匹配且的所有比赛" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="195" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
