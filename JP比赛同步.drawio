@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
   <diagram name="第 1 页" id="0xR1DpmY3a8rvw-FRcuS">
-    <mxGraphModel dx="2328" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2442" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,11 +254,6 @@
         <mxCell id="ddabaiSp2fjzImap6lhC-171" value="&lt;div align=&quot;center&quot;&gt;入参列表&lt;/div&gt;&lt;div&gt;shuijis：需要更新的赛事列表&lt;/div&gt;&lt;div&gt;init:true&lt;/div&gt;&lt;div&gt;lasteUpdateTime：上次修改时间&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;align=left;" parent="1" vertex="1">
           <mxGeometry x="1740" y="191.5" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ddabaiSp2fjzImap6lhC-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ddabaiSp2fjzImap6lhC-172" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1720" y="518.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ddabaiSp2fjzImap6lhC-181" value="&lt;div&gt;involvDate&lt;/div&gt;&lt;div&gt;Set&amp;lt;String&amp;gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="2340" y="30" width="100" height="1950" as="geometry" />
         </mxCell>
@@ -266,7 +261,7 @@
           <mxGeometry x="2330" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ddabaiSp2fjzImap6lhC-186" value="&lt;div align=&quot;center&quot;&gt;入参列表&lt;/div&gt;&lt;div&gt;shuijis：需要更新的赛事列表&lt;/div&gt;&lt;div&gt;init:true&lt;/div&gt;&lt;div&gt;involvDate: new&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1720" y="467" width="170" height="100" as="geometry" />
+          <mxGeometry x="1750" y="487" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ddabaiSp2fjzImap6lhC-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ddabaiSp2fjzImap6lhC-192" target="ddabaiSp2fjzImap6lhC-195" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -298,13 +293,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ddabaiSp2fjzImap6lhC-201" value="&lt;div align=&quot;center&quot;&gt;入参列表&lt;/div&gt;&lt;div&gt;fillMatchs：待操作的比赛&lt;/div&gt;&lt;div&gt;init:true&lt;/div&gt;&lt;div&gt;involvDate: 所有开赛时间&lt;/div&gt;&lt;div&gt;allMatchs： new&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="777" width="170" height="100" as="geometry" />
+          <mxGeometry x="1810" y="850" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ddabaiSp2fjzImap6lhC-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.012;entryY=0.57;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ddabaiSp2fjzImap6lhC-199" target="ddabaiSp2fjzImap6lhC-201" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ddabaiSp2fjzImap6lhC-203" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1484" y="40" width="171" height="2260" as="geometry" />
+          <mxGeometry x="1470" y="10" width="171" height="2260" as="geometry" />
         </mxCell>
         <mxCell id="ddabaiSp2fjzImap6lhC-164" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;SycMatchServiceNew&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="ddabaiSp2fjzImap6lhC-203" vertex="1">
           <mxGeometry width="170" height="2260" as="geometry" />
@@ -331,7 +326,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-1" value="&lt;div&gt;1.根据比赛的主客队进行分组&lt;/div&gt;&lt;div&gt;获取所有比赛的主队和客队，然后主客队ID为Key, 比赛ID为value&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2.找出主客队有一个ID匹配，且开赛时间相差12小时的所有比赛mappinng&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=19;labelBackgroundColor=default;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="2000" y="777" width="160" height="117" as="geometry" />
+          <mxGeometry x="2030" y="830" width="160" height="117" as="geometry" />
         </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-3" value="&lt;div&gt;relevanceMap&lt;/div&gt;&lt;div&gt;Map&amp;lt;String,String&amp;gt; &lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="3260" y="30" width="160" height="1950" as="geometry" />
@@ -357,7 +352,7 @@
         <mxCell id="AkYPh20p488TmPe1H3Wy-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-22">
           <mxGeometry width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AkYPh20p488TmPe1H3Wy-24" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-23">
+        <mxCell id="AkYPh20p488TmPe1H3Wy-24" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-23">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -370,12 +365,12 @@
         <mxCell id="AkYPh20p488TmPe1H3Wy-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-22">
           <mxGeometry y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AkYPh20p488TmPe1H3Wy-27" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-26">
+        <mxCell id="AkYPh20p488TmPe1H3Wy-27" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-26">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AkYPh20p488TmPe1H3Wy-28" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-26">
+        <mxCell id="AkYPh20p488TmPe1H3Wy-28" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-26">
           <mxGeometry x="60" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -401,7 +396,7 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AkYPh20p488TmPe1H3Wy-34" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-32">
+        <mxCell id="AkYPh20p488TmPe1H3Wy-34" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-32">
           <mxGeometry x="60" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -433,7 +428,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-110" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="610" width="130" height="190" as="geometry" />
+          <mxGeometry x="2220" y="670" width="130" height="190" as="geometry" />
         </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-111" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AkYPh20p488TmPe1H3Wy-110">
           <mxGeometry width="130" height="32" as="geometry" />
@@ -523,7 +518,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-193" value="&lt;div align=&quot;center&quot;&gt;入参列表&lt;/div&gt;&lt;div&gt;fillMatchs：待操作的比赛&lt;/div&gt;&lt;div&gt;relevanceMap: 多场列表&lt;/div&gt;&lt;div&gt;allMatchs： 待操作的比赛&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1118.5" width="170" height="100" as="geometry" />
+          <mxGeometry x="1750" y="1194.63" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AkYPh20p488TmPe1H3Wy-192" target="AkYPh20p488TmPe1H3Wy-193">
           <mxGeometry relative="1" as="geometry" />
@@ -749,23 +744,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AkYPh20p488TmPe1H3Wy-274" value="JpMatchChangeListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1469" y="2410" width="201" height="540" as="geometry" />
-        </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-275" value="处理三方比赛和标准比赛" style="shape=link;html=1;rounded=0;width=52.10526315789474;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="1420" y="2328" as="sourcePoint" />
             <mxPoint x="3230" y="2340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AkYPh20p488TmPe1H3Wy-276" value="doMatchNotify" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1484" y="2570" width="171" height="115.37894736842105" as="geometry" />
-        </mxCell>
         <mxCell id="AkYPh20p488TmPe1H3Wy-278" value="处理JP原始比赛" style="shape=link;html=1;rounded=0;width=48.94736842105264;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="1378.9473684210527" y="-20" as="sourcePoint" />
             <mxPoint x="3200" y="-30" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AkYPh20p488TmPe1H3Wy-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ddabaiSp2fjzImap6lhC-172" target="ddabaiSp2fjzImap6lhC-186">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
