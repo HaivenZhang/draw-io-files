@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
   <diagram name="第 1 页" id="0xR1DpmY3a8rvw-FRcuS">
-    <mxGraphModel dx="2328" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -752,10 +752,19 @@
         <mxCell id="AkYPh20p488TmPe1H3Wy-274" value="JpMatchChangeListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1469" y="2410" width="201" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="AkYPh20p488TmPe1H3Wy-275" value="" style="shape=link;html=1;rounded=0;width=52.10526315789474;" edge="1" parent="1">
+        <mxCell id="AkYPh20p488TmPe1H3Wy-275" value="处理三方比赛和标准比赛" style="shape=link;html=1;rounded=0;width=52.10526315789474;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="1420" y="2328" as="sourcePoint" />
-            <mxPoint x="2820" y="2338" as="targetPoint" />
+            <mxPoint x="3230" y="2340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkYPh20p488TmPe1H3Wy-276" value="doMatchNotify" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1484" y="2570" width="171" height="115.37894736842105" as="geometry" />
+        </mxCell>
+        <mxCell id="AkYPh20p488TmPe1H3Wy-278" value="处理JP原始比赛" style="shape=link;html=1;rounded=0;width=48.94736842105264;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1378.9473684210527" y="-20" as="sourcePoint" />
+            <mxPoint x="3200" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
