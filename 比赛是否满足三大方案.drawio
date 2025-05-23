@@ -291,8 +291,8 @@
         <mxCell id="DhXgeWIGwbwysRwVFNVs-139" value="定时任务扫描" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="1130" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DhXgeWIGwbwysRwVFNVs-140" value="&lt;div align=&quot;left&quot;&gt;扫描逻辑：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.扫描标准比赛表：（1）开赛五天前至今天以后所有的比赛&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;（2）隐藏的赛事&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.循环标准比赛，获取三方ID，判断是否满足三大，如果满足，从新进行匹配&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1095" width="260" height="160" as="geometry" />
+        <mxCell id="DhXgeWIGwbwysRwVFNVs-140" value="&lt;div align=&quot;left&quot;&gt;扫描逻辑：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.扫描标准比赛表：（1）开赛五天前至今天以后所有的比赛&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;（2）隐藏且未取消的赛事&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.循环标准比赛，获取三方ID，判断是否满足三大，如果满足，从新进行匹配&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;扫描逻辑二：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.扫描标准比赛表：（1）&lt;div align=&quot;left&quot;&gt;开赛五天前至今天以后所有的比赛&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;（2）未隐藏且未取消的赛事&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.将开出的比赛ID进行缓存&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1030" width="260" height="225" as="geometry" />
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-141" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="100" y="1410" width="200" height="80" as="geometry" />
@@ -509,7 +509,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-200" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="940" y="2090" width="200" height="80" as="geometry" />
+          <mxGeometry x="940" y="2140" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-201" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DhXgeWIGwbwysRwVFNVs-200">
           <mxGeometry width="200" height="40" as="geometry" />
@@ -538,16 +538,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-207" value="match" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="2100" width="80" height="80" as="geometry" />
+          <mxGeometry x="780" y="2150" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-208" value="&lt;div&gt;1.获取A,B的比赛的三方ID&lt;/div&gt;&lt;div&gt;2.判断出A,B的B数据商或C数据商都满足三大&lt;/div&gt;&lt;div&gt;3.判断满足三大的比赛是否已经开出&lt;/div&gt;&lt;div&gt;4.如果已经开出，则不进行切换&lt;/div&gt;&lt;div&gt;5.查看B已经开出，则开B,隐藏A&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="440" y="2090" width="170" height="240" as="geometry" />
+          <mxGeometry x="440" y="2140" width="170" height="240" as="geometry" />
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.254;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DhXgeWIGwbwysRwVFNVs-207" target="DhXgeWIGwbwysRwVFNVs-208">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-211" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="940" y="2230" width="200" height="80" as="geometry" />
+          <mxGeometry x="940" y="2280" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DhXgeWIGwbwysRwVFNVs-212" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DhXgeWIGwbwysRwVFNVs-211">
           <mxGeometry width="200" height="40" as="geometry" />
@@ -578,7 +578,7 @@
         <mxCell id="DhXgeWIGwbwysRwVFNVs-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DhXgeWIGwbwysRwVFNVs-208" target="DhXgeWIGwbwysRwVFNVs-215">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="610" y="2272" />
+              <mxPoint x="610" y="2322" />
             </Array>
           </mxGeometry>
         </mxCell>
