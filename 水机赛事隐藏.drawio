@@ -258,6 +258,21 @@
         <mxCell id="vTcuAJ-xSGz-m_mcXu4r-92" value="&lt;div&gt;优先级:9&lt;/div&gt;&lt;div&gt;优先级描述:C独源不满足三大&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1810" y="570" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-95" value="循环遍历比赛，然后给比赛排优先级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-9" target="vTcuAJ-xSGz-m_mcXu4r-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-97" value="滚球" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vTcuAJ-xSGz-m_mcXu4r-96">
+          <mxGeometry x="-0.2094" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
