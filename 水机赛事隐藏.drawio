@@ -345,7 +345,7 @@
           <mxGeometry x="710" y="1010" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vTcuAJ-xSGz-m_mcXu4r-130" value="&lt;div&gt;优先级:6&lt;/div&gt;&lt;div&gt;优先级描述:订阅了没開出但是异常&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="910" y="1430" width="120" height="80" as="geometry" />
+          <mxGeometry x="910" y="1341.56" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vTcuAJ-xSGz-m_mcXu4r-137" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1131" y="1180" width="170" height="215" as="geometry" />
