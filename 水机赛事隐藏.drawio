@@ -482,6 +482,89 @@
         <mxCell id="vTcuAJ-xSGz-m_mcXu4r-176" value="&lt;div align=&quot;left&quot;&gt;同一优先级的情况下有两种处理方案：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.谁先开出就开谁:&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;场景(1): 满足三大的情况&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;场景(2):滚球阶段有订阅&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.谁先创建就开谁&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;非1场景的其他，都是这个处理方案&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="2130" y="480" width="290" height="290" as="geometry" />
         </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-177" value="水机赛事架构图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="404" y="1690" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-178" value="比赛" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1815" width="1530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-179" value="比赛表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-181" target="vTcuAJ-xSGz-m_mcXu4r-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-181" value="同步JP数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="1955" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-183" target="vTcuAJ-xSGz-m_mcXu4r-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-183" value="&lt;div&gt;定时任务扫描&lt;/div&gt;&lt;div&gt;一分钟扫描一次&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1955" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-186" target="vTcuAJ-xSGz-m_mcXu4r-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-185" value="同步JP数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vTcuAJ-xSGz-m_mcXu4r-184">
+          <mxGeometry x="-0.2541" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-186" value="&lt;div&gt;库: inno_odds&lt;/div&gt;&lt;div&gt;表: refactor_prematch&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1935" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-187" value="更新比赛信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-189" target="vTcuAJ-xSGz-m_mcXu4r-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-189" value="JP修改通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="2205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-190" value="JP修改后会通过kafka通知我们进行同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-191" value="&lt;div&gt;TOPIC:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;inno.odds.resource.change.event&lt;br&gt;inno.odds.match.squash.event&lt;br&gt;inno.odds.match.basic.info.static&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2355" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-192" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="2285" as="sourcePoint" />
+            <mxPoint x="610" y="2325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-193" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1985" width="20" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-190" target="vTcuAJ-xSGz-m_mcXu4r-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-195" value="队伍&amp;amp;联赛" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2575" width="1530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-197" target="vTcuAJ-xSGz-m_mcXu4r-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-197" value="队伍表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2795" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-199" target="vTcuAJ-xSGz-m_mcXu4r-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-199" value="联赛表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="3015" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-201" target="vTcuAJ-xSGz-m_mcXu4r-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-201" value="&lt;div&gt;定时任务扫描&lt;/div&gt;&lt;div&gt;8分钟执行一次&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="2915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-202" value="全量同步数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2915" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
