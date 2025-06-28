@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="第 1 页" id="Ure-QdAdwL3FPSvky5vD">
-    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,7 +12,7 @@
             <mxPoint x="270" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-3" value="多场比赛" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-3" value="多场比赛" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="80" y="360" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vTcuAJ-xSGz-m_mcXu4r-5" value="&lt;div&gt;多场标准&lt;/div&gt;&lt;div&gt;充要条件&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.主客队有一个相同&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.开赛时间相差12小时&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
@@ -478,6 +478,9 @@
         </mxCell>
         <mxCell id="vTcuAJ-xSGz-m_mcXu4r-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTcuAJ-xSGz-m_mcXu4r-168" target="vTcuAJ-xSGz-m_mcXu4r-171">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTcuAJ-xSGz-m_mcXu4r-176" value="&lt;div align=&quot;left&quot;&gt;同一优先级的情况下有两种处理方案：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.谁先开出就开谁:&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;场景(1): 满足三大的情况&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;场景(2):滚球阶段有订阅&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.谁先创建就开谁&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;非1场景的其他，都是这个处理方案&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="480" width="290" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
