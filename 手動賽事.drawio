@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7">
   <diagram name="第 1 页" id="5flaS-uWqEB8QVBMCl00">
-    <mxGraphModel dx="1375" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1618" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-4" value="分頁查詢" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HYCyX_AIick6Ktpu3Yt5-6" value="&lt;div&gt;1.球種&lt;/div&gt;&lt;div&gt;2.日期&lt;/div&gt;&lt;div&gt;3.國家/地區&lt;/div&gt;&lt;div&gt;4.聯賽&lt;/div&gt;&lt;div&gt;5.比賽ID&lt;/div&gt;&lt;div&gt;6.球隊名&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-6" value="&lt;div&gt;1.球種&lt;/div&gt;&lt;div&gt;2.日期&lt;/div&gt;&lt;div&gt;3.國家/地區&lt;/div&gt;&lt;div&gt;4.聯賽&lt;/div&gt;&lt;div&gt;5.比賽ID&lt;/div&gt;&lt;div&gt;6.球隊名&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;size=18;" vertex="1" parent="1">
           <mxGeometry x="560" y="90" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-4" target="HYCyX_AIick6Ktpu3Yt5-6">
@@ -190,7 +190,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-117" value="API接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1390" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-119" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="240" y="1290" width="30" height="690" as="geometry" />
@@ -346,6 +346,15 @@
         </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-183" value="發送Kafka通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-185" value="ALTER TABLE `match_merge`.`standard_match` ADD COLUMN `type` int UNSIGNED NOT NULL DEFAULT 1 COMMENT &#39;賽事類型: 1=常規比賽，2=手動賽事&#39; AFTER `replay_status`;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="850" y="80" width="1100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-186" value="新增賽事類型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.584;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-186" target="HYCyX_AIick6Ktpu3Yt5-185">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
