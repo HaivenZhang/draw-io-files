@@ -130,6 +130,9 @@
             <mxPoint x="899.5" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-93" target="HYCyX_AIick6Ktpu3Yt5-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-93" value="&lt;div&gt;1.修改三方比賽主客隊及聯賽&lt;/div&gt;&lt;div&gt;2.下發賽事變更通知給下游&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1120" y="575" width="160" height="100" as="geometry" />
         </mxCell>
@@ -146,13 +149,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-101" value="CREATE TABLE `manual_match_log` (&lt;br&gt;&amp;nbsp; `id` int NOT NULL AUTO_INCREMENT COMMENT &#39;主鍵ID&#39;,&lt;br&gt;&amp;nbsp; `standard_id` int NOT NULL COMMENT &#39;比賽id&#39;,&lt;br&gt;&amp;nbsp; `sport_id` smallint DEFAULT 1 COMMENT &#39;体育类型&#39;,&lt;br&gt;&amp;nbsp; `type` tinyint NOT NULL DEFAULT 1 COMMENT &#39;日志類型:1=比賽,2=比分，3=狀態，4=盤口&#39;,&lt;br&gt;&amp;nbsp; `operate` tinyint NOT NULL COMMENT &#39;操作類型:1=新增,2=修改，3=刪除&#39;,&lt;br&gt;&amp;nbsp; `back_info` varchar(500) COMMENT &#39;變更前的副本信息&#39;,&lt;br&gt;&amp;nbsp; `new_info` varchar(500) NOT NULL COMMENT &#39;變更后的信息&#39;,&lt;br&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;創建時間&#39;,&lt;br&gt;&amp;nbsp; `update_by` varchar(50) NOT NULL COMMENT &#39;操作人&#39;,&lt;br&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改時間&#39;,&lt;br&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE,&lt;br&gt;&amp;nbsp; KEY `idx_standard_type_time` (`standard_id`, `type`, `create_time`)&lt;br&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci ROW_FORMAT=DYNAMIC COMMENT=&#39;手動賽事日志表&#39;;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="480" y="710" width="610" height="270" as="geometry" />
+          <mxGeometry x="570" y="720" width="610" height="270" as="geometry" />
         </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-103" value="新增日志表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HYCyX_AIick6Ktpu3Yt5-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-103" target="HYCyX_AIick6Ktpu3Yt5-101">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-105" value="DDL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYCyX_AIick6Ktpu3Yt5-104">
+          <mxGeometry x="-0.1379" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-106" value="記錄日志" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-27" target="HYCyX_AIick6Ktpu3Yt5-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-106" target="HYCyX_AIick6Ktpu3Yt5-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-110" value="權限管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-111" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1120" as="sourcePoint" />
+            <mxPoint x="300" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-113" value="新增接口權限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-115" value="&lt;div&gt;1.列表查詢&lt;/div&gt;&lt;div&gt;2.編輯&lt;/div&gt;&lt;div&gt;3.新增&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1060" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-113" target="HYCyX_AIick6Ktpu3Yt5-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-117" value="API接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
