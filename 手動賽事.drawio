@@ -1,9 +1,159 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7">
   <diagram name="第 1 页" id="5flaS-uWqEB8QVBMCl00">
-    <mxGraphModel>
+    <mxGraphModel dx="1375" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-1" value="賽事管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-4" value="分頁查詢" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-6" value="&lt;div&gt;1.球種&lt;/div&gt;&lt;div&gt;2.日期&lt;/div&gt;&lt;div&gt;3.國家/地區&lt;/div&gt;&lt;div&gt;4.聯賽&lt;/div&gt;&lt;div&gt;5.比賽ID&lt;/div&gt;&lt;div&gt;6.球隊名&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-4" target="HYCyX_AIick6Ktpu3Yt5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-9" value="查詢條件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYCyX_AIick6Ktpu3Yt5-8">
+          <mxGeometry x="0.0143" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-10" value="新增賽事" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-10" target="HYCyX_AIick6Ktpu3Yt5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-16" value="聯賽列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-17" value="主隊列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-18" value="客隊列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-19" value="開賽時間" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-20" value="是否隱藏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="359.5" as="sourcePoint" />
+            <mxPoint x="710" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-22" target="HYCyX_AIick6Ktpu3Yt5-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-31" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYCyX_AIick6Ktpu3Yt5-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-22" target="HYCyX_AIick6Ktpu3Yt5-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-40" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYCyX_AIick6Ktpu3Yt5-39">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-22" value="是否存在主客隊一致，且開賽時間相同的比賽" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="275" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-27" value="&lt;div&gt;1.生成標準比賽ID&lt;/div&gt;&lt;div&gt;2.生成B源三方比賽ID&lt;/div&gt;&lt;div&gt;3.填充三方比賽主客隊及聯賽&lt;/div&gt;&lt;div&gt;4.打上手動賽事標識&lt;/div&gt;&lt;div&gt;5.下發賽事通知給下游&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="275" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-29" target="HYCyX_AIick6Ktpu3Yt5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-43" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYCyX_AIick6Ktpu3Yt5-42">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-29" value="校驗住客隊及聯賽是否有誤" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="275" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-29" target="HYCyX_AIick6Ktpu3Yt5-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-34" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYCyX_AIick6Ktpu3Yt5-32">
+          <mxGeometry x="-0.0672" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-38" value="提示:參照文檔" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-41" value="提示:參照文檔" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-44" value="編輯賽事" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-66" value="同上" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-67" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="590" as="sourcePoint" />
+            <mxPoint x="560" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-44" target="HYCyX_AIick6Ktpu3Yt5-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-89" target="HYCyX_AIick6Ktpu3Yt5-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-89" value="同上" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="585" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-66" target="HYCyX_AIick6Ktpu3Yt5-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-91" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="899.5" y="570" as="sourcePoint" />
+            <mxPoint x="899.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-93" value="&lt;div&gt;1.修改三方比賽主客隊及聯賽&lt;/div&gt;&lt;div&gt;2.下發賽事變更通知給下游&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="575" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-94" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="20" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-95" value="日志管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-96" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="840" as="sourcePoint" />
+            <mxPoint x="300" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-101" value="CREATE TABLE `manual_match_log` (&lt;br&gt;&amp;nbsp; `id` int NOT NULL AUTO_INCREMENT COMMENT &#39;主鍵ID&#39;,&lt;br&gt;&amp;nbsp; `standard_id` int NOT NULL COMMENT &#39;比賽id&#39;,&lt;br&gt;&amp;nbsp; `sport_id` smallint DEFAULT 1 COMMENT &#39;体育类型&#39;,&lt;br&gt;&amp;nbsp; `type` tinyint NOT NULL DEFAULT 1 COMMENT &#39;日志類型:1=比賽,2=比分，3=狀態，4=盤口&#39;,&lt;br&gt;&amp;nbsp; `operate` tinyint NOT NULL COMMENT &#39;操作類型:1=新增,2=修改，3=刪除&#39;,&lt;br&gt;&amp;nbsp; `back_info` varchar(500) COMMENT &#39;變更前的副本信息&#39;,&lt;br&gt;&amp;nbsp; `new_info` varchar(500) NOT NULL COMMENT &#39;變更后的信息&#39;,&lt;br&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;創建時間&#39;,&lt;br&gt;&amp;nbsp; `update_by` varchar(50) NOT NULL COMMENT &#39;操作人&#39;,&lt;br&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;修改時間&#39;,&lt;br&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE,&lt;br&gt;&amp;nbsp; KEY `idx_standard_type_time` (`standard_id`, `type`, `create_time`)&lt;br&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci ROW_FORMAT=DYNAMIC COMMENT=&#39;手動賽事日志表&#39;;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="710" width="610" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-103" value="新增日志表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYCyX_AIick6Ktpu3Yt5-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYCyX_AIick6Ktpu3Yt5-103" target="HYCyX_AIick6Ktpu3Yt5-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
