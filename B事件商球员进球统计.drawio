@@ -61,7 +61,7 @@
         <mxCell id="6V8uS0KXqiwA6GbBJHg4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6V8uS0KXqiwA6GbBJHg4-29" target="6V8uS0KXqiwA6GbBJHg4-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6V8uS0KXqiwA6GbBJHg4-29" value="解析typeId=40和45的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6V8uS0KXqiwA6GbBJHg4-29" value="解析typeId=40的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="1298.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6V8uS0KXqiwA6GbBJHg4-30" value="&lt;div&gt;解析数据&lt;/div&gt;&lt;div&gt;side:主客队&lt;/div&gt;&lt;div&gt;type:进球类型&lt;/div&gt;&lt;div&gt;play1Id:主攻球员&lt;/div&gt;&lt;div&gt;play2Id:助攻球员&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;align=left;" vertex="1" parent="1">
@@ -82,7 +82,7 @@
         <mxCell id="6V8uS0KXqiwA6GbBJHg4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6V8uS0KXqiwA6GbBJHg4-35" target="6V8uS0KXqiwA6GbBJHg4-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6V8uS0KXqiwA6GbBJHg4-35" value="解析typeId=50的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6V8uS0KXqiwA6GbBJHg4-35" value="解析typeId=50和45的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6V8uS0KXqiwA6GbBJHg4-36" value="&lt;div&gt;解析数据&lt;/div&gt;&lt;div&gt;side:主客队&lt;/div&gt;&lt;div&gt;type:进球类型&lt;/div&gt;&lt;div&gt;play1Id:主攻球员&lt;/div&gt;&lt;div&gt;play2Id:助攻球员&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;align=left;" vertex="1" parent="1">
