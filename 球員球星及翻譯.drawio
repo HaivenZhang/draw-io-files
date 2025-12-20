@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="1kPK4aNwj8_SPZJygy76">
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="球員匹配" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="280" as="sourcePoint" />
+            <mxPoint x="250" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-15" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aoRPw-JK_ZvEU8j7bmgs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-7" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="去除所有的特殊符號&lt;div&gt;忽略大小写&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="130" x="429" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-12" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="120" x="270" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-10" parent="aoRPw-JK_ZvEU8j7bmgs-12" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-3" parent="aoRPw-JK_ZvEU8j7bmgs-12" style="rounded=0;whiteSpace=wrap;html=1;" value="B:zhang san" vertex="1">
+          <mxGeometry height="50" width="100" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-5" parent="aoRPw-JK_ZvEU8j7bmgs-12" style="rounded=0;whiteSpace=wrap;html=1;" value="C:zhang San" vertex="1">
+          <mxGeometry height="50" width="100" x="10" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-13" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.023;entryY=0.493;entryDx=0;entryDy=0;entryPerimeter=0;" target="aoRPw-JK_ZvEU8j7bmgs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-17" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aoRPw-JK_ZvEU8j7bmgs-16" value="是">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="两个球员名称相同且&lt;div&gt;所属球种相同&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="600" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="生成标准球员信息" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="球员图片上传/下载" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-20" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="569.5" as="sourcePoint" />
+            <mxPoint x="250" y="569.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-23" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aoRPw-JK_ZvEU8j7bmgs-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S3服务器" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-25" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aoRPw-JK_ZvEU8j7bmgs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="使用同一个桶，然后按照功能区分目录" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据库存储相对路径" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-29" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aoRPw-JK_ZvEU8j7bmgs-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="存储" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-32" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aoRPw-JK_ZvEU8j7bmgs-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="读取" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-35" edge="1" parent="1" source="aoRPw-JK_ZvEU8j7bmgs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aoRPw-JK_ZvEU8j7bmgs-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="通过相对路径获取IO流" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="展示:&amp;nbsp;&lt;div&gt;1.文件流&lt;/div&gt;&lt;div&gt;2.AWS SDK v2 生成 URL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="650" y="570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
