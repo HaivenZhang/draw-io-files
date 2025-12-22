@@ -471,6 +471,24 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-158" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=140;entryDy=45;entryPerimeter=0;" target="zspd452Cn0z9L_7plGSX-157">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zspd452Cn0z9L_7plGSX-162" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zspd452Cn0z9L_7plGSX-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zspd452Cn0z9L_7plGSX-159" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;194a977f-8832-4f75-ae59-842810d73a45&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;三方賽事訂閲監控&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="3620" as="geometry" />
+        </mxCell>
+        <mxCell id="zspd452Cn0z9L_7plGSX-164" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zspd452Cn0z9L_7plGSX-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zspd452Cn0z9L_7plGSX-160" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;a502d0c8-c9c5-4453-a20b-f0d008fb456e&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;三方賽事狀態變更&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="3750" as="geometry" />
+        </mxCell>
+        <mxCell id="zspd452Cn0z9L_7plGSX-161" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="B/C數據商訂閲" vertex="1">
+          <mxGeometry height="70" width="140" x="530" y="3620" as="geometry" />
+        </mxCell>
+        <mxCell id="zspd452Cn0z9L_7plGSX-163" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="B/C數據商異常及狀態變更" vertex="1">
+          <mxGeometry height="70" width="140" x="540" y="3745" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
