@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="球員自动匹配" vertex="1">
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="球員自动匹配" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="440" as="geometry" />
         </mxCell>
         <mxCell id="aoRPw-JK_ZvEU8j7bmgs-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
@@ -43,7 +43,7 @@
         <mxCell id="aoRPw-JK_ZvEU8j7bmgs-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="生成标准球员信息" vertex="1">
           <mxGeometry height="60" width="120" x="790" y="439" as="geometry" />
         </mxCell>
-        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="球员图片上传/下载" vertex="1">
+        <mxCell id="aoRPw-JK_ZvEU8j7bmgs-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="球员图片上传/下载" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="715" as="geometry" />
         </mxCell>
         <mxCell id="aoRPw-JK_ZvEU8j7bmgs-20" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
@@ -85,7 +85,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-12" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zspd452Cn0z9L_7plGSX-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="排序" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="排序" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="1420" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-14" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zspd452Cn0z9L_7plGSX-13">
@@ -97,7 +97,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="后端批量更新" vertex="1">
           <mxGeometry height="60" width="120" x="480" y="1420" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="俱乐部" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="俱乐部" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="1610" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-16" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;fontStyle=1;fontSize=21;" value="球星" vertex="1">
@@ -127,7 +127,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="查询：&lt;div&gt;查询最新的俱乐部记录就是球星当前的俱乐部&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="650" y="1610" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="国家队" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="国家队" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="1820" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-28" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zspd452Cn0z9L_7plGSX-32">
@@ -169,7 +169,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-49" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zspd452Cn0z9L_7plGSX-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="球星开关" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="球星开关" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="2020" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="开：打开数据库标识位&lt;div&gt;关：关闭标识位置&lt;/div&gt;" vertex="1">
@@ -187,7 +187,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="俱乐部和国家队无需维护，由JP提供&lt;div&gt;新体育只需要维护球员的俱乐部和国家队的关系&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="260" x="940" y="1715" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="编辑" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="编辑" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="980" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-56" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
@@ -273,7 +273,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-83" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zspd452Cn0z9L_7plGSX-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="翻译" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="翻译" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="2380" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="队伍/联赛/球员的自动翻译&amp;nbsp; &amp;nbsp;" vertex="1">
@@ -346,7 +346,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-121" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zspd452Cn0z9L_7plGSX-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="匹配" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="匹配" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="2750" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-140" edge="1" parent="1" source="zspd452Cn0z9L_7plGSX-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zspd452Cn0z9L_7plGSX-129">
@@ -432,7 +432,7 @@
         <mxCell id="zspd452Cn0z9L_7plGSX-141" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;fontStyle=1;fontSize=21;" value="标准赛事表的变更" vertex="1">
           <mxGeometry height="60" width="1630" y="3000" as="geometry" />
         </mxCell>
-        <mxCell id="zspd452Cn0z9L_7plGSX-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="足/篮/网/棒" vertex="1">
+        <mxCell id="zspd452Cn0z9L_7plGSX-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="足/篮/网/棒" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="3310" as="geometry" />
         </mxCell>
         <mxCell id="zspd452Cn0z9L_7plGSX-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="比分/状态/事件" vertex="1">
