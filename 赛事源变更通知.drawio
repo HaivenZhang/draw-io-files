@@ -256,6 +256,18 @@
             <mxPoint x="1090" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TDiOIhC9UE0JLeHA3rrp-23" parent="1" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;" value="第二次定时任务" vertex="1">
+          <mxGeometry height="70" width="240" x="510" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TDiOIhC9UE0JLeHA3rrp-24" parent="TDiOIhC9UE0JLeHA3rrp-23" style="triangle;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TDiOIhC9UE0JLeHA3rrp-25" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="60" x="595" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TDiOIhC9UE0JLeHA3rrp-26" parent="1" style="whiteSpace=wrap;html=1;" value="数据库的值和REDIS的值进行比较" vertex="1">
+          <mxGeometry height="60" width="120" x="565" y="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
